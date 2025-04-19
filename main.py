@@ -104,6 +104,8 @@ bot = FeatureRichBot()
 async def main():
     async with bot:
         await setup_bot(bot) # Use the imported setup_bot function
+        from dotenv import load_dotenv
+        load_dotenv()
         TOKEN = os.getenv("DISCORD_TOKEN")
         if not TOKEN:
             logger.critical("No Discord token found. Set the DISCORD_TOKEN environment variable.")
