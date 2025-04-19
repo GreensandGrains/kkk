@@ -1,0 +1,26 @@
+{
+    "admin_roles": {},
+    "mod_roles": {},
+    "invite_tracking": {},
+    "auto_messages": {},
+    "giveaways": {},
+    "application_systems": {},
+    "ticket_systems": {},
+    "tournament_systems": {},
+    "bump_systems": {},
+    "welcome": {
+        "enabled": true,
+        "channel_id": 1362628511029919855,
+        "message": "Welcome to the server, {user}! We hope you enjoy your stay."
+    },
+    "leveling": {
+        "enabled": false,
+        "xp_multiplier": 1.0,
+        "level_channel_id": null
+    },
+    "goodbye": {
+        "enabled": false,
+        "channel_id": null,
+        "message": "Goodbye, {username}. We'll miss you!"
+    }
+}
